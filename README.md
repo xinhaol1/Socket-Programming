@@ -8,3 +8,5 @@ Recommending rule:
   If more than one users have the same highest degree, recommend the user with the smallest user id.
   If client has already been connected to all friends of his friends, then recommend the user in this country/region with the largest number of friends.
   If client has already been connected to everyone in the country/region, no recommendation.
+
+** Currently the easy case 1 fails. Will fix it soon.
