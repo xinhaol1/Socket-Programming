@@ -1,0 +1,27 @@
+----------------------------------------------------------------
+                      country name    num users    num relations
+----------------------------------------------------------------
+                               eVl           16              240
+                                BW           18               36
+                                CU           21              244
+                              dfSb           22              256
+                                jB           22              222
+----------------------------------------------------------------
+num graphs                       5
+----------------------------------------------------------------
+
+
+RECEIVED USER QUERY: 30 in aaaa
+>>>> country not found
+
+RECEIVED USER QUERY: 500 in CU
+>>>> user not found
+
+RECEIVED USER QUERY: 2 in eVl
+>>>> 2 is already connected to all other users, no new recommendation
+
+RECEIVED USER QUERY: 15 in BW
+>>>> recommend new friend 2 to user 15 (without common neighbor, recommend highest degree = 4)
+
+RECEIVED USER QUERY: 15 in jB
+>>>> recommend new friend 1 to user 15 (with common neighbor = 8)
