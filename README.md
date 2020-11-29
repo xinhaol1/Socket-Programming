@@ -18,3 +18,4 @@ Recommending rule:
 Text Files:
   data1.txt and data2.txt store the user information used for back-end server A and B. 
   Sample runs are presented in the file queries.txt
+  data1.txt, data2.txt and queries.txt provided by Professor Ali Zahid at USC
